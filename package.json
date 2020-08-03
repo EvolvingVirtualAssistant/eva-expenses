@@ -1,0 +1,11 @@
+{
+  "name": "ela-expenses",
+  "version": "1.0.0",
+  "description": "Expenses manager integrated in E.L.A.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Sanches & Rui Sanches",
+  "license": "MIT"
+}
