@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "tsc && node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "author": "Pedro Sanches & Rui Sanches",
   "license": "MIT",
@@ -22,6 +24,9 @@
     "eslint": "^7.6.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-jest": "~23.20.0",
+    "jest": "~26.4.2",
+    "ts-jest": "~26.2.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   }
